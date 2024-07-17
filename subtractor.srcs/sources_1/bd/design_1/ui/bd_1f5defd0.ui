@@ -1,0 +1,27 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.813289",
+   "Default View_TopLeft":"-332,-693",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1060 -y -290 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1060 -y -270 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 3 -x 550 -y -480 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 4 -x 890 -y -490 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 150 -y -250 -defaultsOSRD
+preplace inst myip_0 -pg 1 -lvl 1 -x -210 -y -390 -defaultsOSRD
+preplace netloc Net 1 0 4 -330 -250 -50 -150 360 -590 730
+preplace netloc ARESETN_1 1 0 4 -320 -300 -110 -380 N -380 740J
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 1 370 -500n
+preplace netloc processing_system7_0_DDR 1 2 3 NJ -290 NJ -290 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 NJ -270 NJ -270 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 2 350 -580 720J
+preplace netloc axi_interconnect_0_M00_AXI 1 0 5 -310 -310 -100J -350 NJ -350 NJ -350 1040
+levelinfo -pg 1 -490 -210 150 550 890 1060
+pagesize -pg 1 -db -bbox -sgen -490 -740 1180 200
+"
+}
+{
+   "da_ps7_cnt":"2"
+}
